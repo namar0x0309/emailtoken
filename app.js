@@ -3,7 +3,6 @@ var http = require('http');
 var url  = require('url');
 var emailtoken = require('./emailtoken');
 
-
 var app = connect();
 
 var DEFAULT_TOKEN_SIZE = 16
