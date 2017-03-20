@@ -1,3 +1,6 @@
+### Status
+[![Build Status](https://travis-ci.org/namar0x0309/emailtoken//UtilityBehaviors.png)](https://travis-ci.org/namar0x0309/emailtoken/)
+
 # Description:
 --------------
 Simple token provider. You can specify a size
