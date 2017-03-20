@@ -1,5 +1,5 @@
 ### Status
-[![Build Status](https://travis-ci.org/namar0x0309/emailtoken//UtilityBehaviors.png)](https://travis-ci.org/namar0x0309/emailtoken/)
+[![Build Status](https://travis-ci.org/namar0x0309/emailtoken.svg?branch=master)](https://travis-ci.org/namar0x0309/emailtoken)
 
 # Description:
 --------------
