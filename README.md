@@ -19,10 +19,14 @@ Simple token provider. You can specify a size
 ## Test:
     npm test
 
-# Uses: 
+# Depends On: 
 ---------
 http, url, connect - for server and routing
 crypto - secure random hashing
+
+#TODO:
+------
+[ ] Test Out dockerfile
 
 # Sources
 ------------
