@@ -21,13 +21,11 @@ Simple token provider. You can specify a size
 
 # Depends On: 
 ---------
-http, url, connect - for server and routing
+http, url, [connect](https://github.com/senchalabs/connect) - for server and routing
+
 crypto - secure random hashing
 
 #TODO:
 ------
-[ ] Test Out dockerfile
+- [ ] Test Out dockerfile
 
-# Sources
-------------
-https://github.com/senchalabs/connect

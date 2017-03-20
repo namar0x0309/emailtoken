@@ -29,7 +29,6 @@
   "scripts": {
     "start": "nodejs app.js",
     "coverage": "covert test",
-    "dist": "mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js",
     "lint": "eslint lib/*.js test/*.js",
     "pretest": "npm run --silent readme && npm run --silent lint",
     "readme": "evalmd README.md",
