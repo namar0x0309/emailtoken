@@ -12,6 +12,28 @@
     "utils-merge": "1.0.0",
     "compression": "1.6.2",
     "cookie-session": "2.0.0-beta.1",
-    "body-parser": "1.17.1"
+    "body-parser": "1.17.1",
+   "@ljharb/eslint-config": "^11.0.0",
+    "browserify": "^14.1.0",
+    "covert": "^1.1.0",
+    "eslint": "^3.17.0",
+    "evalmd": "^0.0.17",
+    "iconv-lite": "^0.4.15",
+    "mkdirp": "^0.5.1",
+    "parallelshell": "^2.0.0",
+    "qs-iconv": "^1.0.4",
+    "safe-publish-latest": "^1.1.1",
+    "tape": "^4.6.3",
+    "tape-promise": "^2.0.1"
+  },
+  "scripts": {
+    "start": "nodejs app.js",
+    "coverage": "covert test",
+    "dist": "mkdirp dist && browserify --standalone Qs lib/index.js > dist/qs.js",
+    "lint": "eslint lib/*.js test/*.js",
+    "pretest": "npm run --silent readme && npm run --silent lint",
+    "readme": "evalmd README.md",
+    "test": "npm run --silent coverage",
+    "tests-only": "node test"
   }
 }
